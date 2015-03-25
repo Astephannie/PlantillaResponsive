@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Handlee-Regular;
+    src: url(../tipografia/Handlee-Regular.ttf);
+}
+
+.navbar {
+	margin-bottom:0;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	border-radius: 0;
+}
+
+.logo img{
+	width: 15%;
+}
+
+.carousel{
+	z-index: 9
+}
+
+.row {
+	margin-top: 20px;
+	margin-bottom:20px;
+} 
+.display{
+	margin-top:20px;
+}
+
+
+
+h3{
+	font-family:"Handlee-Regular";
+	color: rgb(215, 20, 62);
+	text-align: center;
+}
+
+.container p{
+	font-family:"Handlee-Regular";
+	color: grey;
+	text-align:center;
+	font-size: 17px;
+}
+
+.carousel-control {
+	.glyphicon-menu-right, .glyphicon-menu-left {
+	  font-size: 30px;
+	  position: absolute;
+	  top: 50%;
+	  z-index: 5;
+	  display: inline-block;
+	}
+}
+
+.display {
+  position: relative;
+  width: 100%; }
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  min-height: 100%; }
+  .overlay:hover {
+    background-color: rgba(13, 13, 13, 0.54); 
+    transition: 1s;
+  }
+
+.piepagina{
+	background-color: #ccc;
+	padding: 0.2% 0;
+  margin-top: 6%;
+}
+
+
+.gridpie{
+	margin: 0 10%;
+	h5{
+		color: grey;
+	}
+	p{
+		color: grey;
+		font-size: 13px;
+		margin-top: 1%;
+		margin-bottom: 5%;
+	}
+	img{
+		width: 15%;
+	}
+}
+
+.text-center{
+	text-align:center;
+}
